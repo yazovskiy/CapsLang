@@ -1,0 +1,35 @@
+﻿<Window x:Class="CapsLang.Tray.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapsLang.Tray"
+        mc:Ignorable="d"
+        Title="CapsLang"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanMinimize"
+        ShowInTaskbar="False"
+        Height="300" Width="200"
+        Closed="Window_Closed" Icon="/Resources/capslang_icon_transparent.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/Resources/capslang_icon_transparent_large.png" Margin="5"></Image>
+        <TextBlock Grid.Row="1" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
+            This is a simple tool for switching of language by CapsLock button.
+        </TextBlock>
+        <TextBlock Grid.Row="2" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
+            If you want to turn on Caps mode you have to hold CapsLock button.
+        </TextBlock>
+        <TextBlock Grid.Row="3" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
+            If you have any questions, suggestions, issues then will send email: capslang@
+        </TextBlock>
+    </Grid>
+</Window>
