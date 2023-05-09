@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace LangSwitcher
 {
-    public class LangSwitcher
+    public static class NativeMethods
     {
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
@@ -20,13 +20,13 @@ namespace LangSwitcher
         private static long _capsPressed;
         private const long _capsDelay = 2000000;
 
-        public static void Run()
+        internal static void Run()
         {
             _capsPressed = 0;
             _hookID = SetHook(_proc);
         }
 
-        public static void Release()
+        internal static void Release()
         {
             UnhookWindowsHookEx(_hookID);
         }

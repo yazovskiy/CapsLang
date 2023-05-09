@@ -9,7 +9,7 @@
         WindowStyle="SingleBorderWindow"
         ResizeMode="CanMinimize"
         ShowInTaskbar="False"
-        Height="300" Width="200"
+        Height="200" Width="200"
         Closed="Window_Closed" Icon="/Resources/capslang_icon_transparent.ico">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -18,18 +18,10 @@
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Image Source="/Resources/capslang_icon_transparent_large.png" Margin="5"></Image>
-        <TextBlock Grid.Row="1" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
+        <TextBlock Grid.Row="1" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center" VerticalAlignment="Center">
             This is a simple tool for switching of language by CapsLock button.
-        </TextBlock>
-        <TextBlock Grid.Row="2" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
-            If you want to turn on Caps mode you have to hold CapsLock button.
-        </TextBlock>
-        <TextBlock Grid.Row="3" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center">
-            If you have any questions, suggestions, issues then will send email: capslang@
         </TextBlock>
     </Grid>
 </Window>
