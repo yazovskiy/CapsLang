@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
         <Image Source="/Resources/capslang_icon_transparent_large.png" Margin="5"></Image>
         <TextBlock Grid.Row="1" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center" VerticalAlignment="Center">
-            This is a simple tool for switching of language by CapsLock button.
+            This is a simple utility to switch the keyboard layout with the CapsLock button.
         </TextBlock>
     </Grid>
 </Window>

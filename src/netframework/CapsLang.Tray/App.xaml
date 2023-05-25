@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:CapsLang.Tray"
              ShutdownMode="OnExplicitShutdown">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
