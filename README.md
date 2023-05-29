@@ -1,3 +1,3 @@
 # CapsLang
 
-This is simple win-util for switching the language by Caps Lock
+This is a simple Windows application that allows you to switch the keyboard layout by pressing CapsLock.
