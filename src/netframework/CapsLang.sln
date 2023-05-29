@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapsLang.Tray", "CapsLang.T
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "CapsLang.Msix", "CapsLang.Msix\CapsLang.Msix.wapproj", "{C699D226-5225-4848-B19C-F5C7AC0912D3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CapsLang.Setup", "CapsLang.Setup\CapsLang.Setup.vdproj", "{D81AAD9E-2004-4B2E-9645-3DEAF9862608}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,16 @@ Global
 		{C699D226-5225-4848-B19C-F5C7AC0912D3}.Release|x86.ActiveCfg = Release|x86
 		{C699D226-5225-4848-B19C-F5C7AC0912D3}.Release|x86.Build.0 = Release|x86
 		{C699D226-5225-4848-B19C-F5C7AC0912D3}.Release|x86.Deploy.0 = Release|x86
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Debug|Any CPU.ActiveCfg = Debug
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Debug|ARM.ActiveCfg = Debug
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Debug|ARM64.ActiveCfg = Debug
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Debug|x64.ActiveCfg = Debug
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Debug|x86.ActiveCfg = Debug
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Release|Any CPU.ActiveCfg = Release
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Release|ARM.ActiveCfg = Release
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Release|ARM64.ActiveCfg = Release
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Release|x64.ActiveCfg = Release
+		{D81AAD9E-2004-4B2E-9645-3DEAF9862608}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
