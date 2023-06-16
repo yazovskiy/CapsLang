@@ -18,15 +18,9 @@ jobs:
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
         
-      - name: Navigate to folder
-        run: cd ./src/netframework
-
-      - name: show files
-        run: ls
-        
       - name: Restore Packages
-        run: nuget restore CapsLang.sln
+        run: nuget restore ./src/netframework/CapsLang.sln
 
       - name: Build Solution
         run: |
-          msbuild.exe CapsLang.sln /p:platform="Any CPU" /p:configuration="Release"
+          msbuild.exe ./src/netframework/CapsLang.sln /p:platform="Any CPU" /p:configuration="Release"
