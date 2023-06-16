@@ -15,12 +15,6 @@ jobs:
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
-      - name: Setup NuGet
-        uses: NuGet/setup-nuget@v1.0.5
-        
-      - name: Restore Packages
-        run: nuget restore ./src/netframework/CapsLang.sln
-
       - name: Build Solution
         run: |
           msbuild.exe ./src/netframework/CapsLang.sln /p:platform="Any CPU" /p:configuration="Release"
