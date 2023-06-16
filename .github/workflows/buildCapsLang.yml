@@ -19,7 +19,10 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.5
         
       - name: Navigate to folder
-        run: cd $GITHUB_WORKSPACE
+        run: cd ./src/netframework
+
+      - name: show files
+        run: ls
         
       - name: Restore Packages
         run: nuget restore CapsLang.sln
